@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url('/preview.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
