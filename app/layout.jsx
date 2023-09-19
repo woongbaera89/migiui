@@ -3,7 +3,7 @@ import './globals.css';
 import { Inter } from 'next/font/google';
 import Script from 'next/script';
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ['latin'], display: 'swap', variable: '--font-inter' });
 
 export const metadata = {
   title: 'MIGIUI',
