@@ -324,6 +324,38 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/prop-types@npm:*":
+  version: 15.7.6
+  resolution: "@types/prop-types@npm:15.7.6"
+  checksum: 5f2796c7330461a556c4d18035fb914b372f96b1619a4f8302d07e1ea708e06a2dbe666dfcd8ff03f64c625aa4c12b31f677d0298a32910f5ab7ee51521d8086
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:^17.0.0 || ^18.0.0":
+  version: 18.2.22
+  resolution: "@types/react@npm:18.2.22"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: 44289523dabaadcd3fd85689abb98f9ebcc8492d7e978348d1c986138acef4801030b279e89a19e38a6319e294bcea77559e37e0c803e4bacf2b8ae3a56ba587
+  languageName: node
+  linkType: hard
+
+"@types/scheduler@npm:*":
+  version: 0.16.3
+  resolution: "@types/scheduler@npm:0.16.3"
+  checksum: 2b0aec39c24268e3ce938c5db2f2e77f5c3dd280e05c262d9c2fe7d890929e4632a6b8e94334017b66b45e4f92a5aa42ba3356640c2a1175fa37bef2f5200767
+  languageName: node
+  linkType: hard
+
+"@types/vimeo__player@npm:^2.10.0":
+  version: 2.18.0
+  resolution: "@types/vimeo__player@npm:2.18.0"
+  checksum: 1e658d705cff84adecadf42f868ed8b0d6341a3d09d5ab00ad22dc1d0f874ca881b79fd4602960de232949b19202488c4ce9172441a88710f8d6a972e5c8a5d6
+  languageName: node
+  linkType: hard
+
 "@typescript-eslint/parser@npm:^5.4.2 || ^6.0.0":
   version: 6.7.2
   resolution: "@typescript-eslint/parser@npm:6.7.2"
@@ -384,6 +416,30 @@ __metadata:
     "@typescript-eslint/types": 6.7.2
     eslint-visitor-keys: ^3.4.1
   checksum: b4915fbc0f3d44c81b92b7151830b698e8b6ed2dee8587bb65540c888c7a84300d3fd6b0c159e2131c7c6df1bebe49fb0d21c347ecdbf7f3e4aec05acebbb0bc
+  languageName: node
+  linkType: hard
+
+"@u-wave/react-vimeo@npm:^0.9.10":
+  version: 0.9.10
+  resolution: "@u-wave/react-vimeo@npm:0.9.10"
+  dependencies:
+    "@types/react": ^17.0.0 || ^18.0.0
+    "@types/vimeo__player": ^2.10.0
+    "@vimeo/player": ^2.16.4
+    prop-types: ^15.7.2
+  peerDependencies:
+    react: ^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
+  checksum: c6c2734e01e550010d32f38d15bf9f06efefb96943d6e417747cb554f39e399c3c44c7f3525c6060b2a506b6a463eee8da197799788882b49cf25595c7b89880
+  languageName: node
+  linkType: hard
+
+"@vimeo/player@npm:^2.16.4":
+  version: 2.20.1
+  resolution: "@vimeo/player@npm:2.20.1"
+  dependencies:
+    native-promise-only: 0.8.1
+    weakmap-polyfill: 2.0.4
+  checksum: 639ea4fbc4443a0c5004974c7c21cb4e1aca473172fedd71e42c0ff22656b3b1523d757eacf9b09be596fd2bfb5047bffacd6a4d8077115809f2abd1e5bab4f8
   languageName: node
   linkType: hard
 
@@ -1106,6 +1162,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"csstype@npm:^3.0.2":
+  version: 3.1.2
+  resolution: "csstype@npm:3.1.2"
+  checksum: e1a52e6c25c1314d6beef5168da704ab29c5186b877c07d822bd0806717d9a265e8493a2e35ca7e68d0f5d472d43fac1cdce70fd79fd0853dff81f3028d857b5
+  languageName: node
+  linkType: hard
+
 "damerau-levenshtein@npm:^1.0.8":
   version: 1.0.8
   resolution: "damerau-levenshtein@npm:1.0.8"
@@ -1530,6 +1593,15 @@ __metadata:
   bin:
     eslint-config-prettier: bin/cli.js
   checksum: 362e991b6cb343f79362bada2d97c202e5303e6865888918a7445c555fb75e4c078b01278e90be98aa98ae22f8597d8e93d48314bec6824f540f7efcab3ce451
+  languageName: node
+  linkType: hard
+
+"eslint-import-resolver-alias@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "eslint-import-resolver-alias@npm:1.1.2"
+  peerDependencies:
+    eslint-plugin-import: ">=1.4.0"
+  checksum: 3fbb9aeda98335060bb438ed8446a060d282f80a365838a82edb1f8743b1d54c89303009c7717e3c915d5d722e57148082c5ada4455e811acdc8ed3a65059fa1
   languageName: node
   linkType: hard
 
@@ -3030,6 +3102,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "migiui@workspace:."
   dependencies:
+    "@u-wave/react-vimeo": ^0.9.10
     autoprefixer: ^10.4.15
     cssnano: ^6.0.1
     eslint: ^8.49.0
@@ -3037,6 +3110,7 @@ __metadata:
     eslint-config-airbnb-base: ^15.0.0
     eslint-config-next: ^13.5.0
     eslint-config-prettier: ^9.0.0
+    eslint-import-resolver-alias: ^1.1.2
     eslint-plugin-import: ^2.28.1
     eslint-plugin-jsx-a11y: ^6.7.1
     eslint-plugin-prettier: ^5.0.0
@@ -3218,6 +3292,13 @@ __metadata:
   bin:
     nanoid: bin/nanoid.cjs
   checksum: 7d0eda657002738aa5206107bd0580aead6c95c460ef1bdd0b1a87a9c7ae6277ac2e9b945306aaa5b32c6dcb7feaf462d0f552e7f8b5718abfc6ead5c94a71b3
+  languageName: node
+  linkType: hard
+
+"native-promise-only@npm:0.8.1":
+  version: 0.8.1
+  resolution: "native-promise-only@npm:0.8.1"
+  checksum: bb4d8416c47d1b2cef0d4eb2c7f3442a9ed04d3734287f4037dfb7ff25948612976928e5baed105081927d5337d3f657e3a42ad2e8cca38a6428a81b32cd6dc4
   languageName: node
   linkType: hard
 
@@ -4131,7 +4212,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.8.1":
+"prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -5019,6 +5100,13 @@ __metadata:
     glob-to-regexp: ^0.4.1
     graceful-fs: ^4.1.2
   checksum: 23d4bc58634dbe13b86093e01c6a68d8096028b664ab7139d58f0c37d962d549a940e98f2f201cecdabd6f9c340338dc73ef8bf094a2249ef582f35183d1a131
+  languageName: node
+  linkType: hard
+
+"weakmap-polyfill@npm:2.0.4":
+  version: 2.0.4
+  resolution: "weakmap-polyfill@npm:2.0.4"
+  checksum: 4c733a927f7ac6b1244a4acf6a227bddfd74aa60eb03c21a10f7133b47b2d47c3b2a684f1c4723d574a5c5be516f7bb37af5eed7369a93aed5e19fb8eab6948c
   languageName: node
   linkType: hard
 

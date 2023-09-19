@@ -28,6 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@u-wave/react-vimeo", "virtual:cd9d35ab65688e8c3524adc6a89046f2220947513c0ba93464519494508392c74352037a51a49f408f399e1f042467fd8c985c42b265721ea90113bd664522f7#npm:0.9.10"],\
             ["autoprefixer", "virtual:cd9d35ab65688e8c3524adc6a89046f2220947513c0ba93464519494508392c74352037a51a49f408f399e1f042467fd8c985c42b265721ea90113bd664522f7#npm:10.4.15"],\
             ["cssnano", "virtual:cd9d35ab65688e8c3524adc6a89046f2220947513c0ba93464519494508392c74352037a51a49f408f399e1f042467fd8c985c42b265721ea90113bd664522f7#npm:6.0.1"],\
             ["eslint", "npm:8.49.0"],\
@@ -35,6 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-airbnb-base", "virtual:cd9d35ab65688e8c3524adc6a89046f2220947513c0ba93464519494508392c74352037a51a49f408f399e1f042467fd8c985c42b265721ea90113bd664522f7#npm:15.0.0"],\
             ["eslint-config-next", "virtual:cd9d35ab65688e8c3524adc6a89046f2220947513c0ba93464519494508392c74352037a51a49f408f399e1f042467fd8c985c42b265721ea90113bd664522f7#npm:13.5.0"],\
             ["eslint-config-prettier", "virtual:cd9d35ab65688e8c3524adc6a89046f2220947513c0ba93464519494508392c74352037a51a49f408f399e1f042467fd8c985c42b265721ea90113bd664522f7#npm:9.0.0"],\
+            ["eslint-import-resolver-alias", "virtual:cd9d35ab65688e8c3524adc6a89046f2220947513c0ba93464519494508392c74352037a51a49f408f399e1f042467fd8c985c42b265721ea90113bd664522f7#npm:1.1.2"],\
             ["eslint-plugin-import", "virtual:cd9d35ab65688e8c3524adc6a89046f2220947513c0ba93464519494508392c74352037a51a49f408f399e1f042467fd8c985c42b265721ea90113bd664522f7#npm:2.28.1"],\
             ["eslint-plugin-jsx-a11y", "virtual:cd9d35ab65688e8c3524adc6a89046f2220947513c0ba93464519494508392c74352037a51a49f408f399e1f042467fd8c985c42b265721ea90113bd664522f7#npm:6.7.1"],\
             ["eslint-plugin-prettier", "virtual:cd9d35ab65688e8c3524adc6a89046f2220947513c0ba93464519494508392c74352037a51a49f408f399e1f042467fd8c985c42b265721ea90113bd664522f7#npm:5.0.0"],\
@@ -456,6 +458,45 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@types/prop-types", [\
+        ["npm:15.7.6", {\
+          "packageLocation": "./.yarn/cache/@types-prop-types-npm-15.7.6-9468562b65-5f2796c733.zip/node_modules/@types/prop-types/",\
+          "packageDependencies": [\
+            ["@types/prop-types", "npm:15.7.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/react", [\
+        ["npm:18.2.22", {\
+          "packageLocation": "./.yarn/cache/@types-react-npm-18.2.22-bd0a04edf5-44289523da.zip/node_modules/@types/react/",\
+          "packageDependencies": [\
+            ["@types/react", "npm:18.2.22"],\
+            ["@types/prop-types", "npm:15.7.6"],\
+            ["@types/scheduler", "npm:0.16.3"],\
+            ["csstype", "npm:3.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/scheduler", [\
+        ["npm:0.16.3", {\
+          "packageLocation": "./.yarn/cache/@types-scheduler-npm-0.16.3-887bfc0086-2b0aec39c2.zip/node_modules/@types/scheduler/",\
+          "packageDependencies": [\
+            ["@types/scheduler", "npm:0.16.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/vimeo__player", [\
+        ["npm:2.18.0", {\
+          "packageLocation": "./.yarn/cache/@types-vimeo__player-npm-2.18.0-662ae4f77c-1e658d705c.zip/node_modules/@types/vimeo__player/",\
+          "packageDependencies": [\
+            ["@types/vimeo__player", "npm:2.18.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@typescript-eslint/parser", [\
         ["npm:6.7.2", {\
           "packageLocation": "./.yarn/cache/@typescript-eslint-parser-npm-6.7.2-9be494f6f9-9e93d3eb43.zip/node_modules/@typescript-eslint/parser/",\
@@ -543,6 +584,41 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/visitor-keys", "npm:6.7.2"],\
             ["@typescript-eslint/types", "npm:6.7.2"],\
             ["eslint-visitor-keys", "npm:3.4.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@u-wave/react-vimeo", [\
+        ["npm:0.9.10", {\
+          "packageLocation": "./.yarn/cache/@u-wave-react-vimeo-npm-0.9.10-414d78b7dc-c6c2734e01.zip/node_modules/@u-wave/react-vimeo/",\
+          "packageDependencies": [\
+            ["@u-wave/react-vimeo", "npm:0.9.10"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:cd9d35ab65688e8c3524adc6a89046f2220947513c0ba93464519494508392c74352037a51a49f408f399e1f042467fd8c985c42b265721ea90113bd664522f7#npm:0.9.10", {\
+          "packageLocation": "./.yarn/__virtual__/@u-wave-react-vimeo-virtual-330eae621e/0/cache/@u-wave-react-vimeo-npm-0.9.10-414d78b7dc-c6c2734e01.zip/node_modules/@u-wave/react-vimeo/",\
+          "packageDependencies": [\
+            ["@u-wave/react-vimeo", "virtual:cd9d35ab65688e8c3524adc6a89046f2220947513c0ba93464519494508392c74352037a51a49f408f399e1f042467fd8c985c42b265721ea90113bd664522f7#npm:0.9.10"],\
+            ["@types/react", "npm:18.2.22"],\
+            ["@types/vimeo__player", "npm:2.18.0"],\
+            ["@vimeo/player", "npm:2.20.1"],\
+            ["prop-types", "npm:15.8.1"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@vimeo/player", [\
+        ["npm:2.20.1", {\
+          "packageLocation": "./.yarn/cache/@vimeo-player-npm-2.20.1-b48a294abd-639ea4fbc4.zip/node_modules/@vimeo/player/",\
+          "packageDependencies": [\
+            ["@vimeo/player", "npm:2.20.1"],\
+            ["native-promise-only", "npm:0.8.1"],\
+            ["weakmap-polyfill", "npm:2.0.4"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1419,6 +1495,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["csstype", [\
+        ["npm:3.1.2", {\
+          "packageLocation": "./.yarn/cache/csstype-npm-3.1.2-cead7d99b2-e1a52e6c25.zip/node_modules/csstype/",\
+          "packageDependencies": [\
+            ["csstype", "npm:3.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["damerau-levenshtein", [\
         ["npm:1.0.8", {\
           "packageLocation": "./.yarn/cache/damerau-levenshtein-npm-1.0.8-bda7311c69-d240b77575.zip/node_modules/damerau-levenshtein/",\
@@ -2020,6 +2105,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [\
             "@types/eslint",\
             "eslint"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["eslint-import-resolver-alias", [\
+        ["npm:1.1.2", {\
+          "packageLocation": "./.yarn/cache/eslint-import-resolver-alias-npm-1.1.2-19bb9eab39-3fbb9aeda9.zip/node_modules/eslint-import-resolver-alias/",\
+          "packageDependencies": [\
+            ["eslint-import-resolver-alias", "npm:1.1.2"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:cd9d35ab65688e8c3524adc6a89046f2220947513c0ba93464519494508392c74352037a51a49f408f399e1f042467fd8c985c42b265721ea90113bd664522f7#npm:1.1.2", {\
+          "packageLocation": "./.yarn/__virtual__/eslint-import-resolver-alias-virtual-e999af2b84/0/cache/eslint-import-resolver-alias-npm-1.1.2-19bb9eab39-3fbb9aeda9.zip/node_modules/eslint-import-resolver-alias/",\
+          "packageDependencies": [\
+            ["eslint-import-resolver-alias", "virtual:cd9d35ab65688e8c3524adc6a89046f2220947513c0ba93464519494508392c74352037a51a49f408f399e1f042467fd8c985c42b265721ea90113bd664522f7#npm:1.1.2"],\
+            ["@types/eslint-plugin-import", null],\
+            ["eslint-plugin-import", "virtual:cd9d35ab65688e8c3524adc6a89046f2220947513c0ba93464519494508392c74352037a51a49f408f399e1f042467fd8c985c42b265721ea90113bd664522f7#npm:2.28.1"]\
+          ],\
+          "packagePeers": [\
+            "@types/eslint-plugin-import",\
+            "eslint-plugin-import"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3876,6 +3983,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["migiui", "workspace:."],\
+            ["@u-wave/react-vimeo", "virtual:cd9d35ab65688e8c3524adc6a89046f2220947513c0ba93464519494508392c74352037a51a49f408f399e1f042467fd8c985c42b265721ea90113bd664522f7#npm:0.9.10"],\
             ["autoprefixer", "virtual:cd9d35ab65688e8c3524adc6a89046f2220947513c0ba93464519494508392c74352037a51a49f408f399e1f042467fd8c985c42b265721ea90113bd664522f7#npm:10.4.15"],\
             ["cssnano", "virtual:cd9d35ab65688e8c3524adc6a89046f2220947513c0ba93464519494508392c74352037a51a49f408f399e1f042467fd8c985c42b265721ea90113bd664522f7#npm:6.0.1"],\
             ["eslint", "npm:8.49.0"],\
@@ -3883,6 +3991,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-airbnb-base", "virtual:cd9d35ab65688e8c3524adc6a89046f2220947513c0ba93464519494508392c74352037a51a49f408f399e1f042467fd8c985c42b265721ea90113bd664522f7#npm:15.0.0"],\
             ["eslint-config-next", "virtual:cd9d35ab65688e8c3524adc6a89046f2220947513c0ba93464519494508392c74352037a51a49f408f399e1f042467fd8c985c42b265721ea90113bd664522f7#npm:13.5.0"],\
             ["eslint-config-prettier", "virtual:cd9d35ab65688e8c3524adc6a89046f2220947513c0ba93464519494508392c74352037a51a49f408f399e1f042467fd8c985c42b265721ea90113bd664522f7#npm:9.0.0"],\
+            ["eslint-import-resolver-alias", "virtual:cd9d35ab65688e8c3524adc6a89046f2220947513c0ba93464519494508392c74352037a51a49f408f399e1f042467fd8c985c42b265721ea90113bd664522f7#npm:1.1.2"],\
             ["eslint-plugin-import", "virtual:cd9d35ab65688e8c3524adc6a89046f2220947513c0ba93464519494508392c74352037a51a49f408f399e1f042467fd8c985c42b265721ea90113bd664522f7#npm:2.28.1"],\
             ["eslint-plugin-jsx-a11y", "virtual:cd9d35ab65688e8c3524adc6a89046f2220947513c0ba93464519494508392c74352037a51a49f408f399e1f042467fd8c985c42b265721ea90113bd664522f7#npm:6.7.1"],\
             ["eslint-plugin-prettier", "virtual:cd9d35ab65688e8c3524adc6a89046f2220947513c0ba93464519494508392c74352037a51a49f408f399e1f042467fd8c985c42b265721ea90113bd664522f7#npm:5.0.0"],\
@@ -4075,6 +4184,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/nanoid-npm-3.3.6-e6d6ae7e71-7d0eda6570.zip/node_modules/nanoid/",\
           "packageDependencies": [\
             ["nanoid", "npm:3.3.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["native-promise-only", [\
+        ["npm:0.8.1", {\
+          "packageLocation": "./.yarn/cache/native-promise-only-npm-0.8.1-fb8355ffa6-bb4d8416c4.zip/node_modules/native-promise-only/",\
+          "packageDependencies": [\
+            ["native-promise-only", "npm:0.8.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6453,6 +6571,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["watchpack", "npm:2.4.0"],\
             ["glob-to-regexp", "npm:0.4.1"],\
             ["graceful-fs", "npm:4.2.11"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["weakmap-polyfill", [\
+        ["npm:2.0.4", {\
+          "packageLocation": "./.yarn/cache/weakmap-polyfill-npm-2.0.4-782c9ea66d-4c733a927f.zip/node_modules/weakmap-polyfill/",\
+          "packageDependencies": [\
+            ["weakmap-polyfill", "npm:2.0.4"]\
           ],\
           "linkType": "HARD"\
         }]\

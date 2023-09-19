@@ -7,12 +7,20 @@
   ],
   "rules": {
     "prettier/prettier": [
-      "error",
+      "warn",
       {
         "singleQuote": true,
         "endOfLine": "auto"
       }
     ]
+  },
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [["@", "./"]],
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
   },
   "overrides": [
     {
@@ -26,7 +34,7 @@
       ],
       "rules": {
         "prettier/prettier": [
-          "warning",
+          "warn",
           {
             "singleQuote": true,
             "endOfLine": "auto"
