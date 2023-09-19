@@ -15,9 +15,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <img alt="preview" src="/preview.png" style={{ display: 'none' }} />
+        <img alt="preview" src="/preview.jpg" style={{ display: 'none' }} />
         <BackgroundVideo />
-        <main>{children}</main>
+        {children}
       </body>
     </html>
   );
