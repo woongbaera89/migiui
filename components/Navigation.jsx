@@ -9,7 +9,7 @@ export default function Navigation() {
           type="button"
           className="text-left"
           onClick={() => {
-            window.scrollTo({ top: 3000, behavior: 'smooth' });
+            window.scrollTo({ top: window.innerHeight, behavior: 'smooth' });
           }}
         >
           about migiui
