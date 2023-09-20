@@ -2,10 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-image: url('/preview.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
+* {
+  -webkit-tap-highlight-color: transparent;
+  line-height: 1.62;
+}
+
+html {
+  font-size: 18px;
 }
 
 @media (min-width: 768px) {
@@ -16,6 +19,6 @@ body {
 
 @media (min-width: 1024px) {
   html {
-    font-size: 32px;
+    font-size: 30px;
   }
 }

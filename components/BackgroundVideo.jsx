@@ -7,7 +7,10 @@ export default function BackgroundVideo() {
   const [opacity, setOpacity] = useState(0);
 
   return (
-    <div className="pointer-events-none fixed inset-0 -z-10 h-full w-full overflow-hidden">
+    <div
+      className="pointer-events-none fixed inset-0 -z-10 h-full w-full overflow-hidden bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: 'url(/preview.jpg)' }}
+    >
       <Vimeo
         video="866039960"
         autoplay
