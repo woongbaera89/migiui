@@ -30,7 +30,7 @@ export default function Home() {
 위로와 영감의 공간입니다.
 
 
-2003.10
+2023.10
 ‘미지의’가 시작됩니다.
 `}
         </div>
