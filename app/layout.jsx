@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
         <main>
           <a href="#home">
             <Image
-              className="fixed right-0 top-0 z-20 m-8 w-16"
+              className="fixed right-0 top-0 z-20 m-8 w-20"
               src="/logo.svg"
               alt="home"
               width={120}
