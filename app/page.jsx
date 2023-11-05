@@ -7,7 +7,7 @@ const nanum = localFont({
 export default function Home() {
   return (
     <div className={nanum.className}>
-      <div className="flex min-h-screen w-full flex-col items-start justify-between bg-gray-700/90 p-8 text-white">
+      <div className="flex min-h-[calc(100dvh)] w-full flex-col items-start justify-between bg-gray-700/90 p-8 text-white">
         <div className="whitespace-pre-line text-sm">
           {`아직 읽지 못한 책
 들어보지 못한 음악

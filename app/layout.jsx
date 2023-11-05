@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
               height={360}
             />
           </a>
-          <div className="fixed flex min-h-screen w-screen flex-col items-center justify-center">
+          <div className="fixed flex h-[calc(100dvh)] w-screen flex-col items-center justify-center">
             <Navigation />
           </div>
           <div className="relative" style={{ top: '100vh' }}>
