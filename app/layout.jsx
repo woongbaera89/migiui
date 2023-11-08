@@ -19,7 +19,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html id="home" lang="ko" className="scroll-smooth">
-      <body className={caslon.className}>
+      <head>
+        <script>{`setTimeout(function(){(document.body.style.opacity = 1)}, 700)`}</script>
+      </head>
+      <body className={`opacity-0 transition-opacity duration-300 ${caslon.className}`}>
         <img alt="preview" src="/preview.jpg" style={{ display: 'none' }} />
         <BackgroundVideo />
 
@@ -36,9 +39,7 @@ export default function RootLayout({ children }) {
           <div className="fixed flex h-[calc(100dvh)] w-screen flex-col items-center justify-center">
             <Navigation />
           </div>
-          <div className="relative" style={{ top: '100vh' }}>
-            <div>{children}</div>
-          </div>
+          {children}
         </main>
       </body>
     </html>

@@ -8,7 +8,7 @@ export default function Navigation() {
           type="button"
           className="text-left"
           onClick={() => {
-            window.scrollTo({ top: window.innerHeight + 200, behavior: 'smooth' });
+            window.scrollTo({ top: window.innerHeight + 300, behavior: 'smooth' });
           }}
         >
           about migiui
